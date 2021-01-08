@@ -1,0 +1,307 @@
+body. h1, h2, h3, h4, h5, h6, span, a {
+    font-family: 'Work Sans', sans-serif;
+
+
+} 
+img{
+    max-width: 100%;
+}
+.brand a{
+    font-weight: 600;
+}
+.brand span {
+    background-color: #6278df;
+    border-radius: 5px;
+    text-align: center;
+    height: 42px;
+    width: 38px;
+    margin-right: 5px;
+    font-size: 28px;
+    display: inline-block;
+    color: white;
+    margin-top: 5px;
+}
+
+.ManManuBar ul{
+ margin-left: 30px;
+}
+.MainManuBar ul li{
+    margin-left: 20px;
+    display: inline-block;
+
+
+}
+.ManManuBar ul li a{
+
+}
+.ManManuBar ul li ul {
+
+
+}
+.ManManuBar ul li ul li{
+
+}
+
+
+.baner-section{
+
+background: url(img/mbr-10.jpg);
+background-size: cover;
+max-width: 100%;
+color: white;
+height: 500px;
+padding: 20px;
+position: relative;
+z-index: 1;
+}
+.baner-section::after{
+    content: "";
+position: absolute;
+top: 0%;
+left: 0;
+
+width: 100%;
+height: 100%;
+background: rgb(22, 21, 21);
+opacity: .5;
+z-index: -1;
+
+}
+
+
+
+
+
+
+
+
+
+.baner-section h1 {
+    margin: 52px 0;
+    font-weight: 700;
+    font-size: 60px;
+}
+.baner-section h4{
+    font-weight: 300;
+}
+.baner-from {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.baner-from input[type="email"] {
+    font-size: 28px;
+    border-radius: 8px;
+    border-color: white;
+}
+.baner-from button.btn.btn-outline-primary {
+    font-size: 27px;
+    background: #5ba533;
+    border-color: #5ba533;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.baner-from button.btn{
+width: 40px;
+
+}
+.baner-from button.btn {
+    width: 170px;
+}
+
+.number-cunter-section h1 {
+    font-size: 55px;
+    margin-bottom:15px;
+}
+
+.about-section h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.about-section img {
+    height: 300px;
+}
+.bgColor{
+    background-color: #f7f9ff;
+}
+
+.left-img-sec{
+    width: 40%;
+    float: left;
+    
+    
+    }
+    .left-img-sec img {
+        heii: 291px;
+        height: 250px;
+    }
+    .right-text-sec {
+        width: 60%;
+        display: inline-block;
+    }
+    .gallary h1{
+        font-size: 45px;
+
+    }
+    .gallary img{
+        height: 250px;
+        width: 100%;
+    }
+    .gallary-img{
+      position: relative;
+    }
+    .gallary-img::after{
+        content: "";
+    position:absolute;
+    top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+display: inline-block;
+background-color:#6278df;
+opacity: 0;
+visibility: hidden;
+    }
+
+    .gallary-img:hover::after{
+visibility: visible;
+opacity: .5;
+
+    }
+
+    .pricing-div{
+        box-shadow: 4px 4px 20px 0 rgba(0,0,0,.1);
+        width: 65%;
+        margin-left: 90px;
+        padding: 50px 0;
+
+    }
+    .pricing-div ul{
+
+    }
+.pricing-div ul li{
+    list-style: none;
+   margin-bottom: 30px;
+}
+
+.pricing-div ul li span {
+    color: #0d6efd;
+    /* width: 76px; */
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 13px;
+}
+.pricing-div-btn{
+ margin: 0 55px;
+   
+
+
+}
+.pricing-div-btn button {
+    font-size: 25px;
+}
+
+.feadback {
+
+}
+.feadback h1 {
+    font-size: 47px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.feadback span {
+    font-size: 100px;
+    font-weight: 100;
+    opacity: .1;
+}
+.feadback p {
+    font-size: 26px;
+    margin: 50px 150px;
+}
+.feadback-pic {
+    clear: both;
+    display: inline-block;
+    width: 145px;
+    text-align: left;
+}
+.feadback-pic img {
+    width: 49px;
+    border-radius: 50px;
+    float: left;
+
+
+}
+.feadback-pic p{
+margin: 0%;
+
+}
+
+
+.history{
+
+}
+.history h1{
+
+}
+
+.history p{
+
+}
+.hostory-img span img {
+    width: 72px;
+    border-radius: 56px;
+    margin-top: -42px;
+    margin-left: 10px;
+}
+
+.history-box {
+  
+    border: none;
+    padding: 103px 28px;
+    background-color: #f7f9ff;
+}
+.history-box-shadwo{
+    box-shadow: 4px 4px 20px 0 rgba(0,0,0,.1);
+   
+}
+
+
+.openion-shadwo {
+    box-shadow: 4px 4px 20px 0 rgba(0,0,0, .1);
+    padding: 0 62px;
+}
+.openion-shadwo input {
+    height: 60px;
+    margin: 18px 0px;
+    width: 105%;
+    box-shadow: 4px 4px 20px 0 rgba(0,0,0, .1);
+    border: none;
+    /* text-align: center; */
+}
+.input-wid input{
+
+}
+.openion-shadwo button {
+    margin: 30px;
+    font-size: 29px;
+ background-color: #0d6efd;
+ color: white;
+}
+
+.openion-shadwo button:hover{
+    background-color: white;
+    color: #0d6efd;
+    box-shadow:  3px 3px 27px -3px #6278df;
+
+}
+
+.link button {
+    width: 79%;
+    height: 57px;
+    font-size: 29px;
+}
+.fotter{
+    padding-top: 90px;
+}
